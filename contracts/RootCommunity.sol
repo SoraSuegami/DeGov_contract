@@ -1,8 +1,8 @@
 pragma solidity >=0.5.0;
 
-import {DelegatedGovernment} from "./DelegatedGovernment.sol";
+import {Administration} from "./Administration.sol";
 
-contract RootCouncil is DelegatedGovernment(address(0)) {
+contract RootCommunity is Administration(address(0)) {
     struct Proposal {
         bytes32 id;
         string uri;

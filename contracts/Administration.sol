@@ -3,7 +3,7 @@ pragma solidity >=0.5.0;
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "openzeppelin-solidity/contracts/drafts/Counters.sol";
 
-contract DelegatedGovernment {
+contract Administration {
     using SafeMath for uint256;
     using Counters for Counters.Counter;
 
